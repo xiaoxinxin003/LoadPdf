@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity implements NetCallBack{
         mPdfView = (PDFView) findViewById(R.id.pdfView);
 
         NetworkAsyncTask.AsyncRequest("http://www.gov.cn/zhengce/pdfFile/2017_PDF.pdf", this);
+
+//        loadPdf();
     }
 
     private void loadPdf() {
